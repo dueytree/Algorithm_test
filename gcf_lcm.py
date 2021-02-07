@@ -6,8 +6,7 @@
 
 def solution(n, m):
     for i in range(1, n + 1):
-        if n % i == 0:
-            if m % i == 0:
+        if n % i == 0 and m % i == 0:
                 tmp = i
     if tmp == 1:
         val = n * m
